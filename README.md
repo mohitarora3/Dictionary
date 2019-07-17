@@ -1,7 +1,7 @@
 # Dictionary
-Implementation of dictionary using trie data structure
+Implementation of dictionary using trie data structure.
 
-## Language- C++
+#### Language- C++
 
 ## Features
 - Insertion
@@ -10,4 +10,4 @@ Implementation of dictionary using trie data structure
 - Autocompletion
 
 ## Screenshots
-![PIC] (Dictionary/Screenshots/dict1.jpeg)
+![image](Dictionary/Screenshots/dict1.jpeg)
