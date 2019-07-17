@@ -10,4 +10,4 @@ Implementation of dictionary using trie data structure.
 - Autocompletion
 
 ## Screenshots
-![image](Dictionary/Screenshots/dict1.jpeg)
+![image](Dictionary/Screenshots/dict1.jpg)
