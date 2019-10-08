@@ -11,6 +11,15 @@ TrieNode::TrieNode():meaning("")
 }
 void Dictionary::insert(string word, string meaning)
 {
+	/*   			
+	objective: inserting a word and its meaning in the dictionary
+	
+	input parameters: word: word to be inserted
+			  meaning:-meaning of the word inserted
+				
+	output value: none
+	
+	*/
 	int i,index;
 	TrieNode *temp=root;
 	for(i=0;i<word.length();i++)
