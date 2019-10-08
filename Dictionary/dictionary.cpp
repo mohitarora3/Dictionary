@@ -5,8 +5,13 @@ Dictionary::Dictionary()
 }
 TrieNode::TrieNode():meaning("")  
 {
-				for(int i=0;i<ALPHABETS;i++)
-				children[i]=NULL;
+	/*   			
+	objective: on creating a node, initialize all its 26 children children with NULL value
+	input parameters: none	
+	output value: none
+	*/
+	for(int i=0;i<ALPHABETS;i++)
+		children[i]=NULL;
 	
 }
 void Dictionary::insert(string word, string meaning)
