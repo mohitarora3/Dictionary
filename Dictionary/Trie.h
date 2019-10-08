@@ -9,6 +9,7 @@
 using namespace std;
 class TrieNode
 {
+	//It represents single alphabet of a word and also tells whether meaningful word ends at this alphabet
 	string meaning;
 	TrieNode *children[ALPHABETS];
 	friend class Dictionary;
