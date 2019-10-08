@@ -126,6 +126,14 @@ TrieNode* Dictionary::removeUtil(TrieNode*temp,string word,int depth=0)
 
 void Dictionary::remove(string word)
 {
+	/*   			
+	objective: to remove/delete a word and its meaning from the dictionary
+	
+	input parameters: word to be deleted
+			  
+	output value: none
+	
+	*/
 	removeUtil(root,word);
 	cout<<"\n\tThe word \""<<word<<" has been successfully removed. ";
 	
