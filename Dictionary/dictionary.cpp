@@ -1,4 +1,4 @@
-#include"Trie.h"
+#include"Trie.h"   //including declaration of dictionary 
 Dictionary::Dictionary()
 {
 	root=new TrieNode();
