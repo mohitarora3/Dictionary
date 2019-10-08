@@ -133,6 +133,14 @@ void Dictionary::remove(string word)
 
 TrieNode* Dictionary::clearDictionary(TrieNode *temp)
 {
+	/*   			
+	objective: to erase/clear the dictionary i.e each and every word and its meaning from the dictionary
+	
+	input parameters: root node of the dictionary
+			  
+	output value: none
+	
+	*/
 	for(int i=0;i<ALPHABETS;i++)
 	{
 		if(temp->children[i])
