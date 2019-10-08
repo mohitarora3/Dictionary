@@ -144,6 +144,13 @@ TrieNode* Dictionary::clearDictionary(TrieNode *temp)
 }
 Dictionary ::~Dictionary()
 {
+	/*   			
+	objective: to deallocate all heap memory before deallocation of object
+	input parameters: none			
+	output value: none
+	approach: calling function clearDictionary
+	*/
+	
 	clearDictionary(root);
 }
 
