@@ -95,6 +95,15 @@ void Dictionary::search(string word)
 }
 bool Dictionary:: isEmpty(TrieNode* temp)
 {
+	/*   			
+	objective: checks whether dictionary is empty
+	
+	input parameters: root node of trie
+			  
+	output value: 0- if dictionary is not empty
+		      1- if dictionary is empty
+	
+	*/
 	int i;
 	for(i=0;i<ALPHABETS;i++)
 		if(temp->children[i])
